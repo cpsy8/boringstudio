@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   description: 'Websites, SEO, outreach and brand — one studio, one system, measurable results.',
   icons: {
-    icon: "assets/rhino-white.svg",
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/assets/rhino-white.svg`,
   },
 };
 

@@ -21,6 +21,8 @@ docs/CI/tooling changes may use the `no-release-note` label to bypass.
 
 ## Upcoming
 
+- Rhino-emblem favicon wired through `app/layout.tsx` metadata, base-path aware so it resolves in
+  dev and on the GitHub Pages deploy.
 - Initial `boring studio` marketing site: static-exported Next.js (App Router + TypeScript) with
   Home, Services (+ detail), Work (+ case-study detail), About and Contact pages.
 - Dark-mode toggle with cross-page `localStorage` persistence and no flash of incorrect theme.
