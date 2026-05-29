@@ -46,6 +46,9 @@ export const metadata: Metadata = {
     template: '%s — Boring Studio',
   },
   description: 'Websites, SEO, outreach and brand — one studio, one system, measurable results.',
+  icons: {
+    icon: "assets/rhino-white.svg",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
