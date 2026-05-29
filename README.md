@@ -61,7 +61,7 @@ Base path is overridable so local dev and root-domain hosting work without a pre
 
 | Env | Purpose | Default |
 |---|---|---|
-| `NEXT_PUBLIC_BASE_PATH` | Sub-path for project-site hosting (e.g. `/tech-lab`) | empty (root) |
+| `NEXT_PUBLIC_BASE_PATH` | Sub-path for project-site hosting (e.g. `/boringstudio`) | empty (root) |
 | `NEXT_PUBLIC_FORMSPREE_ID` | Formspree form id for the contact + newsletter forms | unset → `mailto` fallback |
 
 Local dev needs neither. The deploy workflow sets `NEXT_PUBLIC_BASE_PATH` automatically from the repo
