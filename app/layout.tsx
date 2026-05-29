@@ -42,7 +42,7 @@ const spaceMono = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Boring Studio — Smart tech for businesses that mean business',
+    default: 'Boring Studio',
     template: '%s — Boring Studio',
   },
   description: 'Websites, SEO, outreach and brand — one studio, one system, measurable results.',
