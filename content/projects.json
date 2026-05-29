@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "northgate-dental",
+    "name": "Northgate Dental",
+    "ph": "",
+    "vertical": "Clinic",
+    "scope": "Website",
+    "result": "▲ +160% bookings",
+    "resultTone": "up",
+    "summary": "A booking-ready site that filled the calendar.",
+    "intro": "Northgate Dental needed a site that turned local searches into booked appointments. We rebuilt around speed and a frictionless booking flow.",
+    "stats": [
+      { "big": "+160%", "lbl": "online bookings", "tone": "accent-2-ink" },
+      { "big": "2.1s", "lbl": "avg load time", "trend": "fast", "trendTone": "b" },
+      { "big": "4.9★", "lbl": "patient rating" }
+    ],
+    "challenge": "An old, slow site buried the booking link and barely ranked locally.",
+    "approach": "Rebuilt on a performance budget, surfaced booking everywhere, and tightened local SEO.",
+    "outcome": "Bookings more than doubled within 90 days, with load time cut to 2.1s.",
+    "services": ["website-building", "seo-reach-out"]
+  },
+  {
+    "slug": "maple-and-co",
+    "name": "Maple & Co",
+    "ph": "t2",
+    "vertical": "Retail",
+    "scope": "Brand + SEO",
+    "result": "▲ top-3 local search",
+    "resultTone": "up",
+    "summary": "From invisible to top-3 in local search.",
+    "intro": "A neighbourhood retailer with great products and no online presence. We built the brand and the visibility to match.",
+    "stats": [
+      { "big": "Top 3", "lbl": "local search", "tone": "accent-2-ink" },
+      { "big": "+90%", "lbl": "store visits", "trend": "▲", "trendTone": "up" },
+      { "big": "8 wk", "lbl": "to results" }
+    ],
+    "challenge": "Strong in person, invisible online — no brand system, no rankings.",
+    "approach": "New identity, consistent voice, and a focused local-SEO push.",
+    "outcome": "Reached top-3 for key local terms within a quarter and lifted footfall.",
+    "services": ["brand-building", "seo-reach-out"]
+  },
+  {
+    "slug": "vela-logistics",
+    "name": "Vela Logistics",
+    "ph": "t3",
+    "vertical": "B2B",
+    "scope": "Full partner",
+    "result": "▲ 2× demo requests",
+    "resultTone": "v",
+    "summary": "Doubled demo requests with a full-partner engagement.",
+    "intro": "A B2B operator that needed build, brand and growth handled as one. We ran the whole stream.",
+    "stats": [
+      { "big": "2×", "lbl": "demo requests", "tone": "accent-3-ink" },
+      { "big": "98", "lbl": "performance score", "trend": "▲", "trendTone": "up" },
+      { "big": "1 team", "lbl": "end to end" }
+    ],
+    "challenge": "Fragmented vendors and a site that didn't reflect the quality of the service.",
+    "approach": "Single engagement: rebuild, brand refresh, and an outreach engine on top.",
+    "outcome": "Demo requests doubled while the team stopped juggling agencies.",
+    "services": ["full-partner-package"]
+  }
+]

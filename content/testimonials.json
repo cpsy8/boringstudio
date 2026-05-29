@@ -1,0 +1,37 @@
+[
+  {
+    "av": "a2",
+    "starTone": "accent-ink",
+    "quote": "Fast, clear and genuinely easy to work with. The site loads instantly and just feels premium.",
+    "name": "Founder",
+    "org": "Vela Logistics"
+  },
+  {
+    "av": "a3",
+    "starTone": "accent-2-ink",
+    "quote": "We went from invisible to top-3 in local search within a quarter. The outreach system pays for itself.",
+    "name": "Owner",
+    "org": "Maple & Co"
+  },
+  {
+    "av": "a1",
+    "starTone": "accent-3-ink",
+    "quote": "The brand finally matches the quality of our care. Patients notice — and they book.",
+    "name": "Lead Dentist",
+    "org": "Bright Clinic"
+  },
+  {
+    "av": "a2",
+    "starTone": "accent-ink",
+    "quote": "They handled the build, SEO and brand in one seamless stream. We just watched the bookings climb.",
+    "name": "Practice Manager",
+    "org": "Northgate Dental"
+  },
+  {
+    "av": "a1",
+    "starTone": "accent-3-ink",
+    "quote": "No drama, no jargon, no missed deadlines. Easily the smoothest agency experience we’ve had.",
+    "name": "Marketing Lead",
+    "org": "Harbour Group"
+  }
+]

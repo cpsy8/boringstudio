@@ -1,0 +1,21 @@
+[
+  {
+    "tag": "CLINICS",
+    "ph": "glow",
+    "title": "Clinics & doctors",
+    "body": "Booking-ready sites that fill the calendar."
+  },
+  { "tag": "LOCAL", "ph": "t2", "title": "Small business", "body": "Be the obvious local choice." },
+  {
+    "tag": "B2B",
+    "ph": "t3",
+    "title": "Large business",
+    "body": "Scalable systems, measurable lift."
+  },
+  {
+    "tag": "OTHER",
+    "ph": "",
+    "title": "Everyone else",
+    "body": "Got something different? Let’s talk."
+  }
+]

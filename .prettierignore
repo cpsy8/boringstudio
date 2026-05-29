@@ -1,0 +1,6 @@
+out
+.next
+node_modules
+local
+package-lock.json
+app/globals.css
