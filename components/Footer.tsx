@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { SITE } from '@/lib/site';
 import NewsletterForm from './NewsletterForm';
+import RhinoMark from './RhinoMark';
 
 export default function Footer() {
   return (
@@ -8,7 +9,8 @@ export default function Footer() {
       <div className="foot-top">
         <div className="foot-brand">
           <Link className="wf-logo" href="/">
-            {SITE.mark} {SITE.name}
+            <RhinoMark size={24} />
+            {SITE.name}
           </Link>
           <p className="foot-tag">{SITE.tagline}</p>
           <div className="flex center gap8 mt16">
@@ -41,8 +43,9 @@ export default function Footer() {
         </div>
       </div>
       <div className="foot-bottom">
-        <div>
-          {SITE.mark} {SITE.name} · © 2026 · Remote-first · GMT
+        <div className="flex center gap8">
+          <RhinoMark size={16} />
+          <span>{SITE.name} · © 2026 · Remote-first · GMT</span>
         </div>
         <div className="foot-social">
           <a className="s" href="#" aria-label="X">

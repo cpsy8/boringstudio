@@ -21,6 +21,8 @@ docs/CI/tooling changes may use the `no-release-note` label to bypass.
 
 ## Upcoming
 
+- Themed rhino mark in the header, footer brand block and footer bottom strip — `rhino-black.svg`
+  in light mode, `rhino-white.svg` in dark mode, swapped via CSS so there is no flash on toggle.
 - Rhino-emblem favicon wired through `app/layout.tsx` metadata, base-path aware so it resolves in
   dev and on the GitHub Pages deploy.
 - Initial `boring studio` marketing site: static-exported Next.js (App Router + TypeScript) with
