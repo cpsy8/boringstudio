@@ -1,0 +1,42 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Extract notes from RELEASE.md
+        id: notes
+        # Pull the section for this tag (## vX.Y.Z ...) out of RELEASE.md.
+        # Falls back to the tag name if no matching section is found.
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          VER="${TAG#v}"
+          NOTES=$(awk -v ver="$VER" '
+            $0 ~ "^## v?" ver "( |$|—)" { grab=1; next }
+            grab && /^## / { grab=0 }
+            grab { print }
+          ' RELEASE.md)
+          if [ -z "$NOTES" ]; then NOTES="Release $TAG"; fi
+          {
+            echo "body<<EOF"
+            echo "$NOTES"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ github.ref_name }}
+          body: ${{ steps.notes.outputs.body }}
+          prerelease: ${{ contains(github.ref_name, '-') }}

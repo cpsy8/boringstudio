@@ -1,0 +1,139 @@
+[
+  {
+    "slug": "website-building",
+    "title": "Website building",
+    "accent": "a1",
+    "icon": "◳",
+    "summary": "Design + build — fast, accessible, on-brand.",
+    "popular": true,
+    "hero": "Marketing sites & booking flows that load fast and convert.",
+    "intro": "We design and build marketing sites, booking flows and landing pages that are fast, accessible and unmistakably yours. Performance budgets are baked in from the first commit.",
+    "features": [
+      {
+        "title": "Design + build",
+        "body": "One team from wireframe to launch — no handoffs lost in translation."
+      },
+      {
+        "title": "Accessible by default",
+        "body": "Semantic markup, AA contrast, keyboard and screen-reader friendly."
+      },
+      {
+        "title": "Booking-ready",
+        "body": "Forms, scheduling and lead capture wired to your tools."
+      },
+      {
+        "title": "Fast everywhere",
+        "body": "Optimised images, minimal JS, strong Core Web Vitals."
+      }
+    ],
+    "deliverables": [
+      "Responsive marketing site",
+      "Booking / contact flows",
+      "CMS or content handoff",
+      "Analytics wired in"
+    ]
+  },
+  {
+    "slug": "seo-reach-out",
+    "title": "SEO & reach-out",
+    "accent": "a2",
+    "icon": "⌕",
+    "summary": "Get found, follow up, convert.",
+    "popular": false,
+    "hero": "Be the obvious choice when people search — then follow up.",
+    "intro": "We help you get found for the things that matter, then build an outreach system that follows up and converts — without the spam.",
+    "features": [
+      {
+        "title": "Technical SEO",
+        "body": "Fast, crawlable, structured — the foundation search rewards."
+      },
+      { "title": "Local + content", "body": "Rank for the searches that fill your calendar." },
+      {
+        "title": "Outreach that converts",
+        "body": "Sequenced follow-ups that read like a human wrote them."
+      },
+      { "title": "Measured", "body": "Rankings, traffic and leads tracked against real goals." }
+    ],
+    "deliverables": [
+      "Technical SEO audit",
+      "Local search setup",
+      "Content plan",
+      "Outreach sequences"
+    ]
+  },
+  {
+    "slug": "brand-building",
+    "title": "Brand building",
+    "accent": "a3",
+    "icon": "✦",
+    "summary": "Identity, voice and the details.",
+    "popular": false,
+    "hero": "A brand that matches the quality of your work.",
+    "intro": "Identity, voice and the small details that make a business feel considered. We build brands that scale across every touchpoint.",
+    "features": [
+      { "title": "Identity", "body": "Logo, type and colour system that works everywhere." },
+      { "title": "Voice", "body": "How you sound — consistent across the whole funnel." },
+      { "title": "Guidelines", "body": "A clear system your team can actually use." },
+      { "title": "Assets", "body": "Templates and components ready to ship." }
+    ],
+    "deliverables": ["Visual identity", "Brand guidelines", "Voice & messaging", "Template kit"]
+  },
+  {
+    "slug": "analytics-cro",
+    "title": "Analytics & CRO",
+    "accent": "a1",
+    "icon": "◔",
+    "summary": "Measure, test, improve.",
+    "popular": false,
+    "hero": "Opinions are cheap; data decides.",
+    "intro": "We instrument what matters, find where visitors drop off, and run tests that lift conversion — measured, never guessed.",
+    "features": [
+      {
+        "title": "Clean tracking",
+        "body": "Events and goals that reflect real business outcomes."
+      },
+      { "title": "Funnel analysis", "body": "See exactly where and why people leave." },
+      { "title": "A/B testing", "body": "Test changes against the numbers, not hunches." },
+      { "title": "Reporting", "body": "Plain-English dashboards, not vanity metrics." }
+    ],
+    "deliverables": ["Analytics setup", "Funnel review", "Test roadmap", "Monthly reporting"]
+  },
+  {
+    "slug": "care-hosting",
+    "title": "Care & hosting",
+    "accent": "a2",
+    "icon": "◈",
+    "summary": "Fast, secure, looked after.",
+    "popular": false,
+    "hero": "Fast, secure, and quietly looked after.",
+    "intro": "Managed hosting, monitoring and updates so your site stays fast and secure — and you never think about it.",
+    "features": [
+      { "title": "Managed hosting", "body": "Fast global delivery on infrastructure we maintain." },
+      { "title": "Monitoring", "body": "Uptime and performance watched around the clock." },
+      { "title": "Updates", "body": "Security patches and content edits handled for you." },
+      { "title": "Backups", "body": "Restorable snapshots, always." }
+    ],
+    "deliverables": ["Managed hosting", "Uptime monitoring", "Content edits", "Backups & security"]
+  },
+  {
+    "slug": "full-partner-package",
+    "title": "Full partner package",
+    "accent": "a1",
+    "icon": "✚",
+    "summary": "All of the above, managed end to end.",
+    "popular": false,
+    "featured": true,
+    "hero": "One team, one invoice, one standard — managed end to end.",
+    "intro": "Everything we do, run as one engagement. Build, SEO, brand and care in a single seamless stream so you can focus on the business.",
+    "features": [
+      { "title": "Everything, joined up", "body": "Build, SEO, brand and care under one roof." },
+      {
+        "title": "One point of contact",
+        "body": "No vendor juggling — one team that knows your whole picture."
+      },
+      { "title": "Continuous growth", "body": "We iterate on real numbers, every month." },
+      { "title": "Fixed, no lock-in", "body": "Clear scope and price; leave whenever you like." }
+    ],
+    "deliverables": ["Site build & care", "SEO & outreach", "Brand system", "Monthly growth"]
+  }
+]
