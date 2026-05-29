@@ -187,8 +187,13 @@ body {
   border-bottom: 1px solid var(--line);
 }
 .dark .wf-nav { border-color: var(--dark-line); }
-.wf-logo { font-family: var(--mono); font-weight: 700; font-size: 14px; letter-spacing: -0.02em; }
+.wf-logo { font-family: var(--mono); font-weight: 700; font-size: 14px; letter-spacing: -0.02em; display: inline-flex; align-items: center; gap: 8px; }
 .dark .wf-logo { color: #fff; }
+.rhino-mark { display: inline-flex; align-items: center; justify-content: center; }
+.rhino-mark img { display: block; width: 100%; height: 100%; }
+.rhino-mark__dark { display: none; }
+body.dark .rhino-mark__light { display: none; }
+body.dark .rhino-mark__dark { display: block; }
 .wf-links { display: flex; gap: 22px; align-items: center; }
 .wf-links a {
   font-family: var(--mono);

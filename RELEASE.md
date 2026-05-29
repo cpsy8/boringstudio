@@ -21,6 +21,8 @@ docs/CI/tooling changes may use the `no-release-note` label to bypass.
 
 ## Upcoming
 
+- Themed rhino mark in the header, footer brand block and footer bottom strip — `rhino-black.svg`
+  in light mode, `rhino-white.svg` in dark mode, swapped via CSS so there is no flash on toggle.
 - Initial `boring studio` marketing site: static-exported Next.js (App Router + TypeScript) with
   Home, Services (+ detail), Work (+ case-study detail), About and Contact pages.
 - Dark-mode toggle with cross-page `localStorage` persistence and no flash of incorrect theme.

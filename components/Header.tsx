@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { NAV, SITE } from '@/lib/site';
 import ThemeToggle from './ThemeToggle';
+import RhinoMark from './RhinoMark';
 
 export default function Header() {
   const pathname = usePathname();
@@ -20,7 +21,8 @@ export default function Header() {
     <>
       <header className="wf-nav">
         <Link className="wf-logo" href="/">
-          {SITE.mark} {SITE.name}
+          <RhinoMark size={22} />
+          {SITE.name}
         </Link>
 
         <nav className="wf-links" aria-label="Primary">
