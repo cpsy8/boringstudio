@@ -191,9 +191,9 @@ body {
 .dark .wf-logo { color: #fff; }
 .rhino-mark { display: inline-flex; align-items: center; justify-content: center; }
 .rhino-mark img { display: block; width: 100%; height: 100%; }
-.rhino-mark__dark { display: none; }
-body.dark .rhino-mark__light { display: none; }
-body.dark .rhino-mark__dark { display: block; }
+.rhino-mark img.rhino-mark__dark { display: none; }
+body.dark .rhino-mark img.rhino-mark__light { display: none; }
+body.dark .rhino-mark img.rhino-mark__dark { display: block; }
 .wf-links { display: flex; gap: 22px; align-items: center; }
 .wf-links a {
   font-family: var(--mono);

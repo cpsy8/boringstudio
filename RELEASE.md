@@ -21,6 +21,9 @@ docs/CI/tooling changes may use the `no-release-note` label to bypass.
 
 ## Upcoming
 
+- Fix rhino mark rendering both light and dark SVGs at once: bumped CSS specificity on
+  `.rhino-mark__light` / `.rhino-mark__dark` so the inactive variant is properly hidden, removing the
+  duplicate placeholder seen in light mode.
 - Themed rhino mark in the header, footer brand block and footer bottom strip — `rhino-black.svg`
   in light mode, `rhino-white.svg` in dark mode, swapped via CSS so there is no flash on toggle.
 - Rhino-emblem favicon wired through `app/layout.tsx` metadata, base-path aware so it resolves in
