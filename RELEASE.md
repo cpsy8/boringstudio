@@ -21,8 +21,7 @@ docs/CI/tooling changes may use the `no-release-note` label to bypass.
 
 ## Upcoming
 
-- Trim `README.md` to description, stack and content workflow sections; full original kept as
-  `README.original.md` for reference.
+- Trim `README.md` to description, stack and content workflow sections.
 - Fix rhino mark rendering both light and dark SVGs at once: bumped CSS specificity on
   `.rhino-mark__light` / `.rhino-mark__dark` so the inactive variant is properly hidden, removing the
   duplicate placeholder seen in light mode.
